@@ -91,7 +91,7 @@ body {
 /* ======== CONTENT BLOCKS ========= */
 
 /* a self-contained group of content that advertises another part of the website */
-  {
+  article h2{
   text-align: center;
   background-color: #E8A49B;
   padding: 40px;
@@ -99,7 +99,7 @@ body {
 }
 
 /* an anchor inside an advert */
-  {
+article h2 a{
   color: white;
 }
 
@@ -125,13 +125,14 @@ body {
 /* the section of content that contains the contact information on the Contact page */
   .contact{
   background-color: #E8A49B;
+  color: #000000;
   padding: 40px;
   width: 500px;
   margin-bottom: 40px;
 }
 
 /* a horizontal ruler inside the contact info */
-  .contact{
+  .contact hr{
   margin: 40px 0;
   height: 1px;
   border-width: 0;
