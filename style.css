@@ -12,13 +12,13 @@ body {
 }
 
 /* a section element */
-  {
+  section {
   width: 900px;
   margin: auto;
 }
 
 /* an image element */
-  {
+  img{
   margin: auto;
   display: block;
 }
@@ -26,7 +26,7 @@ body {
 /*-------- TYPOGRAPHY ---------*/
 
 /* a heading 1 element */
-  {
+  h1{
   font-family: serif;
   font-size: 40px;
   margin-top: 0;
@@ -34,53 +34,53 @@ body {
 }
 
 /* an anchor element */
-  {
+  a{
   color: #e6a39a;
 }
 
 /*-------- HEADER AND NAVIGATION ---------*/
 
 /* a header element */
-  {
+  header{
   background: url("images/hairdressing.jpeg") no-repeat top left;
   background-attachment: fixed;
   background-color: white;
 }
 
 /* an anchor element inside a header */
-  {
+  header a{
   display: block;
   text-align: center;
 }
 
 /* a navigation element */
-  {
+  nav{
   background-color: black;
   text-align: center;
   margin: 0 0 40px;
 }
 
 /* an unordered list inside a navigation */
-  {
+  nav ul{
   list-style-type: none;
   padding-left: 0;
 }
 
 /* a list item inside a navigation */
-  {
+  nav li{
   display: inline-block;
   padding: 20px;
 }
 
 /* an anchor inside a navigation */
-  {
+  nav a{
   text-decoration: none;
 }
 
 /* ------- FOOTER ------- */
 
 /* a footer element */
-  {
+ footer {
   background-color: #000000;
   color: white;
   padding: 40px;
@@ -104,26 +104,26 @@ body {
 }
 
 /* the section of content that contains the price list on the Services page*/
-  {
+  .prices{
   background-color: #E8A49B;
   padding: 40px;
   margin: 40px auto;
 }
 
 /* a heading 2 inside the price list */
-  {
+  .prices h2{
   text-align: center;
   font-family: serif;
   font-size: 30px;
 }
 
 /* an unordered list inside the price list */
- {
+ .prices ul{
   list-style-type: square;
 }
 
 /* the section of content that contains the contact information on the Contact page */
-  {
+  .contact{
   background-color: #E8A49B;
   padding: 40px;
   width: 500px;
@@ -131,7 +131,7 @@ body {
 }
 
 /* a horizontal ruler inside the contact info */
-  {
+  .contact{
   margin: 40px 0;
   height: 1px;
   border-width: 0;
@@ -139,6 +139,6 @@ body {
 }
 
 /* an anchor inside the contact info */
-  {
+  .contact a{
   color: white;
 }
